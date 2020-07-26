@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 80%;
+    background-color: rgb(26,188,156);
+    color: rgb(26,188,156);
+    font-weight: 900;
+    height: 700px;
+    margin: 0px auto;
+    padding-top: 20px;
+
+}
+.main
+{
+    width: 70%;
+    height: 500px;
+    border: 2px solid rgb(26,188,156);
+    text-align: center;
+    
+    margin: 0px auto;    
+    margin-top: 100px;
+    background-color: white;
+}
+
+input{
+    width: 50%;
+    height: 3em;
+    border: 3px solid rgb(26,188,156);
+}
+button
+{
+    background-color: rgb(26,188,156);
+    height: 3em;
+    border: 2px solid white;
+    color: black;
+    font-weight: 700;
+
+}
+.btn{
+    background-color: red;
+    opacity: 0.8;
+    
+}
+button:focus{
+    text-decoration: none;
+    border: 2px solid white;
+}
+
+*{
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    padding: 0%;
+}
+ul li{
+    cursor: pointer;
+    list-style-type: none;
+    border-bottom:2px solid springgreen;
+    font-size: 24px;
+    text-align: left; 
+    width: 60%;
+    margin: 0px auto;
+    color: rgb(26,188,156);
+       padding: 8px 12px 8px 12px;
+       height: 2em;
+}
+.delete{
+
+    float: right;
+    height: 3em;
+}
+.sub{
+    margin-top: 30px;
+    
+}
+.del{
+
+    
+    float: right;
+    clear: right;
+    height: 3em;
+}
+
+.done{
+text-decoration: line-through;
+}
